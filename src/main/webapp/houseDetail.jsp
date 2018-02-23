@@ -8,7 +8,7 @@
     <title>houses</title>
     <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 </head>
-<body>
+<body style="text-align: right; direction: rtl">
 <c:out value="${user.name}"/>
 <c:out value="${user.balance}"/>
 <table>

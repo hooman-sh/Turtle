@@ -6,7 +6,7 @@
     <title>search</title>
     <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 </head>
-<body style="text-align: right">
+<body style="text-align: right; direction: rtl">
 <c:out value="${user.name}"/>
 <c:out value="${user.balance}"/>
 <form action="SearchServlet" method="post" accept-charset="UTF-8">

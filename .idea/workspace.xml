@@ -8,52 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b632818b-0b4c-4a04-835a-b7927f2e02a1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Turtle_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Turtle_war.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Turtle_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Turtle_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HouseServlet.java" afterPath="$PROJECT_DIR$/src/main/java/HouseServlet.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PaymentServlet.java" afterPath="$PROJECT_DIR$/src/main/java/PaymentServlet.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Search.java" afterPath="$PROJECT_DIR$/src/main/java/Search.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchServlet.java" afterPath="$PROJECT_DIR$/src/main/java/SearchServlet.java" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/houseDetail.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/houseDetail.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/main.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/main.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1.war" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/WEB-INF/classes/CreditServlet.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/WEB-INF/classes/GetSingleHouse.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/WEB-INF/classes/House.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/WEB-INF/classes/HouseServlet.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/WEB-INF/classes/Individual.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/WEB-INF/classes/PaymentServlet.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/WEB-INF/classes/RSEndPoint.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/WEB-INF/classes/RealState.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/WEB-INF/classes/Search.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/WEB-INF/classes/SearchServlet.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/WEB-INF/classes/Turtle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/WEB-INF/classes/User.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/WEB-INF/lib/commons-codec-1.10.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/WEB-INF/lib/httpclient-4.5.5.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/WEB-INF/lib/httpcore-4.4.9.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.4.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/WEB-INF/lib/json-simple-1.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/WEB-INF/lib/jsp-api-2.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/WEB-INF/lib/jstl-api-1.2.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/WEB-INF/lib/servlet-api-2.5.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/WEB-INF/web.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/error.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/house.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/houseDetail.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/index.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/main.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/search.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/searchResult.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Turtle-1/success.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HouseServlet.class" afterPath="$PROJECT_DIR$/target/classes/HouseServlet.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Search.class" afterPath="$PROJECT_DIR$/target/classes/Search.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SearchServlet.class" afterPath="$PROJECT_DIR$/target/classes/SearchServlet.class" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/searchResult.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/searchResult.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,8 +34,8 @@
       <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            <state relative-caret-position="120">
+              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="47" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -89,7 +47,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PaymentServlet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="searchResult.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/searchResult.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PaymentServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -99,12 +69,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="houseDetail.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="houseDetail.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/houseDetail.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="57" column="55" lean-forward="false" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
-              <folding />
+            <state relative-caret-position="150">
+              <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,16 +131,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SearchServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -218,7 +180,6 @@
         <option value="$PROJECT_DIR$/src/main/java/User.java" />
         <option value="$PROJECT_DIR$/target/Turtle-1/searchResult.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/GetSingleHouse.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/searchResult.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/House.java" />
         <option value="$PROJECT_DIR$/src/main/java/RSEndPoint.java" />
         <option value="$PROJECT_DIR$/src/main/java/Turtle.java" />
@@ -228,10 +189,11 @@
         <option value="$PROJECT_DIR$/src/main/java/SearchServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/Search.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/main.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/houseDetail.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/PaymentServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/searchResult.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/houseDetail.jsp" />
       </list>
     </option>
   </component>
@@ -536,12 +498,12 @@
       <option name="presentableId" value="Default" />
       <updated>1519028742573</updated>
       <workItem from="1519028746024" duration="17609000" />
-      <workItem from="1519380126722" duration="36527000" />
+      <workItem from="1519380126722" duration="36711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54136000" />
+    <option name="totallyTimeSpent" value="54320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -564,9 +526,9 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19226119" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19226119" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22460657" sideWeight="0.4941349" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -738,14 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/searchResult.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GetSingleHouse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -826,20 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/House.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -856,6 +796,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PaymentServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="44" column="48" lean-forward="false" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -864,19 +812,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/houseDetail.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="57" column="55" lean-forward="false" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PaymentServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/searchResult.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="44" column="48" lean-forward="false" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="150">
+          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/houseDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
