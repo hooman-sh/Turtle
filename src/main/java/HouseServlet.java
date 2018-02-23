@@ -28,6 +28,12 @@ public class HouseServlet extends HttpServlet {
         String address = request.getParameter("address");
         String description = request.getParameter("description");
         String phone = request.getParameter("phone");
+        if(dealType.equals("اجاره")){
+            dealType = "1";
+        }
+        if(dealType.equals("خرید")){
+            dealType = "0";
+        }
         RequestDispatcher rd = null;
         House house = new House();
         House result = house.createHouse(buildingType,Integer.parseInt(dealType),Integer.parseInt(price),address,description,Double.parseDouble(area),phone);

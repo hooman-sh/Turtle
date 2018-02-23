@@ -20,16 +20,19 @@ public class Search {
     public ArrayList<House> filterHouses(String minArea,String dealType,String buildingType,String maxPrice){
         ArrayList<House> filteredArray = new ArrayList<House>();
         for(int i=0;i<houses.size();i++){
+            boolean added = false;
             if((buildingType.length() == 0) || houses.get(i).getBuildingType().equals(buildingType.toString())){
                 if((minArea.length() == 0) || houses.get(i).getArea() >= Double.parseDouble(minArea)){
                     if(dealType.length() == 0 || houses.get(i).getDealType().equals(Integer.parseInt(dealType))){
                         if(dealType.length() == 0 || Integer.parseInt(dealType) == 1){
                             if(maxPrice.length() == 0 || houses.get(i).getRentPrice() != 0 && houses.get(i).getRentPrice() <= Integer.parseInt(maxPrice)){
                                 filteredArray.add(houses.get(i));
+                                added = true;
                             }
                         }
                         if(dealType.length() == 0 || Integer.parseInt(dealType) == 0){
-                            if(maxPrice.length() != 0 && houses.get(i).getSellPrice() != 0 && houses.get(i).getSellPrice() <= Integer.parseInt(maxPrice)){
+                            if(maxPrice.length() == 0 || maxPrice.length() != 0 && houses.get(i).getSellPrice() != 0 && houses.get(i).getSellPrice() <= Integer.parseInt(maxPrice)){
+                                if(!added)
                                 filteredArray.add(houses.get(i));
                             }
                         }

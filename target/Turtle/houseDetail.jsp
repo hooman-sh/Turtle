@@ -57,14 +57,10 @@
         <td><c:out value="${house.address}" /></td>
         <td><c:out value="${house.description}" /></td>
         <td><form action="PaymentServlet" method="post"><input name="id" type="hidden" value="${house.id}"><button type="submit">مشاهده تلفن</button></form></td>
+
     </tr>
 </table>
 <c:if test="${text == '-'}">
-    <c:if test="${house.phone == ''}">
-        <p>
-                این خانه توسط بنگاه ثبت شده
-        </p>
-    </c:if>
     <c:if test="${house.phone != ''}">
         <p>
                 ${house.phone}

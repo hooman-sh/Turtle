@@ -23,6 +23,12 @@ public class SearchServlet extends HttpServlet {
         String dealType = request.getParameter("dealType");
         String buildingType = request.getParameter("buildingType");
         String maxPrice = request.getParameter("maxPrice");
+        if(dealType.equals("اجاره")){
+            dealType = "1";
+        }
+        if(dealType.equals("خرید")){
+            dealType = "0";
+        }
         RequestDispatcher rd = null;
         Search search = new Search();
         RSEndPoint api = new RSEndPoint();

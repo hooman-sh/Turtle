@@ -43,7 +43,7 @@
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>Turtle</servlet-name>
-        <url-pattern>/Turtle</url-pattern>
+        <url-pattern>/home</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>PaymentServlet</servlet-name>

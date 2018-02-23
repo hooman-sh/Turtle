@@ -42,9 +42,11 @@ public class PaymentServlet extends HttpServlet {
                 text = "اعتبار شما کافی نیست";
             }
             else {
-                curr_user.setBalance(curr_user.getBalance() - 1000);
-                curr_user.setHouses(id);
-                text="-";
+                if(curr_house.getPhone() != null) {
+                    curr_user.setBalance(curr_user.getBalance() - 1000);
+                    curr_user.setHouses(id);
+                    text = "-";
+                }
             }
         }
         this.getServletConfig().getServletContext().setAttribute("user", curr_user); // add to application context
