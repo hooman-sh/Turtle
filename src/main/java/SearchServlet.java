@@ -17,6 +17,7 @@ public class SearchServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request,
                           HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
         ArrayList<House> user_houses = new ArrayList<>();
         String minArea = request.getParameter("minArea");
         String dealType = request.getParameter("dealType");

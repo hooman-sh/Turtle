@@ -16,6 +16,7 @@ public class HouseServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request,
                           HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
         ArrayList<House> houses = new ArrayList<>();
         if(this.getServletConfig().getServletContext().getAttribute("houses") != null){
             houses = (ArrayList<House>) this.getServletConfig().getServletContext().getAttribute("houses");
