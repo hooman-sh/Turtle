@@ -24,15 +24,13 @@ public class CreditServlet extends HttpServlet {
         RequestDispatcher rd = null;
         RSEndPoint api = new RSEndPoint();
         String result = api.increaseCredit(userId,Integer.parseInt(value));
-        if(result.equals("success")){
-            curr_user.setBalance(curr_user.getBalance() + Integer.parseInt(value));
-            this.getServletConfig().getServletContext().setAttribute("user", curr_user); // add to application context
-            rd = request.getRequestDispatcher("/success.jsp");
-            request.setAttribute("creditResult", result);
-        }else{
-            rd = request.getRequestDispatcher("/error.jsp");
 
-        }
+        curr_user.setBalance(curr_user.getBalance() + Integer.parseInt(value));
+        this.getServletConfig().getServletContext().setAttribute("user", curr_user); // add to application context
+        rd = request.getRequestDispatcher("/main.jsp");
+        request.setAttribute("text", result);
+        request.setAttribute("user", curr_user);
+
         rd.forward(request, response);
     }
 

@@ -20,6 +20,11 @@ public class PaymentServlet extends HttpServlet {
         if(this.getServletConfig().getServletContext().getAttribute("user") != null){
             curr_user = (Individual) this.getServletConfig().getServletContext().getAttribute("user");
         }
+        House curr_house = new House();
+        if(this.getServletConfig().getServletContext().getAttribute("curr_house") != null){
+            curr_house = (House) this.getServletConfig().getServletContext().getAttribute("curr_house");
+        }
+
         String id = request.getParameter("id");
 
         String text = "";
@@ -29,6 +34,7 @@ public class PaymentServlet extends HttpServlet {
         for(int i=0;i<curr_user.getHouses().size();i++){
             if(curr_user.getHouses().get(i).equals(id)){
                 flag = true;
+                text="-";
             }
         }
         if(!flag){
@@ -38,11 +44,14 @@ public class PaymentServlet extends HttpServlet {
             else {
                 curr_user.setBalance(curr_user.getBalance() - 1000);
                 curr_user.setHouses(id);
+                text="-";
             }
         }
         this.getServletConfig().getServletContext().setAttribute("user", curr_user); // add to application context
         rd = request.getRequestDispatcher("/houseDetail.jsp");
         request.setAttribute("text", text);
+        request.setAttribute("user", curr_user);
+        request.setAttribute("house", curr_house);
 
         rd.forward(request, response);
     }

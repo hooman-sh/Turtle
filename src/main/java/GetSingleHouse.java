@@ -22,6 +22,10 @@ public class GetSingleHouse extends HttpServlet {
         if(this.getServletConfig().getServletContext().getAttribute("houses") != null){
             user_houses = (ArrayList<House>) this.getServletConfig().getServletContext().getAttribute("houses");
         }
+        Individual curr_user = new Individual();
+        if(this.getServletConfig().getServletContext().getAttribute("user") != null){
+            curr_user = (Individual) this.getServletConfig().getServletContext().getAttribute("user");
+        }
         House result = new House();
         RequestDispatcher rd = null;
 
@@ -36,8 +40,10 @@ public class GetSingleHouse extends HttpServlet {
             RSEndPoint api = new RSEndPoint();
             result = api.getHouseDetail(id);
         }
+        this.getServletConfig().getServletContext().setAttribute("curr_house", result); // add to application context
         rd = request.getRequestDispatcher("/houseDetail.jsp");
         request.setAttribute("house", result);
+        request.setAttribute("user", curr_user);
 
 
         rd.forward(request, response);

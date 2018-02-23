@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Individual extends User {
-    private Individual(){
+    Individual(){
         super();
     }
     private String phone;

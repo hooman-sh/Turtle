@@ -30,15 +30,19 @@ public class HouseServlet extends HttpServlet {
         RequestDispatcher rd = null;
         House house = new House();
         House result = house.createHouse(buildingType,Integer.parseInt(dealType),Integer.parseInt(price),address,description,Double.parseDouble(area),phone);
-
+        String house_text = "";
         if (result.getId().length() != 0) {
-            houses.add(result);
-            this.getServletConfig().getServletContext().setAttribute("houses", houses); // add to application context
-            rd = request.getRequestDispatcher("/success.jsp");
-            request.setAttribute("houses", houses);
-        } else {
-            rd = request.getRequestDispatcher("/error.jsp");
+            house_text = "success";
+        }else {
+            house_text="err";
         }
+
+        houses.add(result);
+        this.getServletConfig().getServletContext().setAttribute("houses", houses); // add to application context
+        rd = request.getRequestDispatcher("/main.jsp");
+        request.setAttribute("houses", houses);
+        request.setAttribute("house_text", house_text);
+
         rd.forward(request, response);
     }
 

@@ -1,4 +1,5 @@
 import java.util.Date;
+import java.util.Random;
 
 public class House {
     private String id;
@@ -14,7 +15,9 @@ public class House {
     private String description;
     private Date expireTime;
 
-    public House(){}
+    public House(){
+        this.imageURL = "../static/no-pic.jpg";
+    }
 
     public Integer getBasePrice() {
         return basePrice;
@@ -111,7 +114,21 @@ public class House {
     public void setSellPrice(Integer sellPrice) {
         this.sellPrice = sellPrice;
     }
-    public void createHouse(String buildingType,Integer dealType,Integer price,String address,String description,Double area,String phone) {
+
+    private String getSaltString() {
+        String SALTCHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+        StringBuilder salt = new StringBuilder();
+        Random rnd = new Random();
+        while (salt.length() < 18) { // length of the random string.
+            int index = (int) (rnd.nextFloat() * SALTCHARS.length());
+            salt.append(SALTCHARS.charAt(index));
+        }
+        String saltStr = salt.toString();
+        return saltStr;
+
+    }
+
+    public House createHouse(String buildingType,Integer dealType,Integer price,String address,String description,Double area,String phone) {
         this.buildingType = buildingType;
         this.dealType = dealType;
         if(dealType == 0){
@@ -127,6 +144,7 @@ public class House {
         this.address = address;
         this.phone = phone;
         this.area = area;
+        this.id = getSaltString();
+        return this;
     }
-
 }

@@ -179,7 +179,9 @@ public class RSEndPoint {
                                 break;
                         }
                     }
+
                 }
+
                 Houses.add(newHouse);
             }
         }catch (Exception e){
@@ -283,10 +285,5 @@ public class RSEndPoint {
         return null;
     }
 
-    public static void main(String[] args){
-        RSEndPoint r = new RSEndPoint();
-        String R = r.increaseCredit("123",1000);
-        System.out.println(R);
-    }
 
 }
